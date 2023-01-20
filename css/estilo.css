@@ -1,0 +1,35 @@
+body{
+    padding-top: 77px;/*para pode ver conteudo do section devemos da padding no menu */
+}
+
+.box-shadow{
+    box-shadow:0 2px 4px 0 rgba(0,0,0,0.5), /*como criassem duas sombras*/
+               0 2px 4px 0 rgba(0,0,0,0.5);
+}
+
+.secao_2{
+    background-image: url(../img/california.jpg);
+    background-size: cover ;
+}
+
+.lista_plano li{
+    padding: 1rem;
+
+}
+
+.lista_plano  li + li{
+   border-top: 1px solid rgba(0,0,0,0.2);
+}
+
+
+@media(max-width:767px){
+    .secao_2 .display-4{
+        font-size: 2.5rem;
+    } 
+    .fixed-top{
+        position: relative;
+    }
+    body{
+        padding-top: 0px;
+    }
+}
